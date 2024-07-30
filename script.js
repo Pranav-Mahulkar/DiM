@@ -66,3 +66,9 @@ function addToCart(id) {
     const product = products.find(p => p.id === id);
     alert(`${product.name} has been added to your cart.`);
 }
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-GJGWJ5T07J');
